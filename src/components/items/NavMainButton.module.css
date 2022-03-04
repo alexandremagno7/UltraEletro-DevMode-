@@ -1,0 +1,17 @@
+.listSand{
+    display: none;
+}
+
+.listSand svg{
+    width: 24px;
+}
+
+@media(max-width:500px){
+    .listButton{
+        display: none;
+    }
+
+    .listSand{
+        display: block;
+    }
+}
